@@ -1,3 +1,15 @@
+## Example
+```
+    MarkDownView markDownView = (MarkDownView) findViewById(R.id.markdown);
+    markDownView.setMarkDownText(getString(R.string.example));
+    markDownView.setOnImage(new MarkDownView.OnImage() {
+        @Override
+        public void onImage(ImageView imageView, String url) {
+            // use AsynkTask or Library which can show image from url
+        }
+    });
+```
+
 ## License
 ```
 Copyright 2017 Taekyu Yeom
