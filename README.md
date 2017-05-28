@@ -1,3 +1,6 @@
+## MarkDown
+This is a MarkDownView for Android. You can show your markdown text in MarkDownView.
+
 ## Example
 ```
     MarkDownView markDownView = (MarkDownView) findViewById(R.id.markdown);
